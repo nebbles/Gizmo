@@ -1,0 +1,36 @@
+
+
+/*remove indent on line break*/
+.rst-content .line-block {margin-left:0px}
+
+/*start custom toctree*/
+.toctree-wrapper .toctree-l1 > a {margin-bottom: 0.15em}
+/*indent all lines following the first*/
+.toctree-wrapper * a {
+	display: block;
+	width: 90%;
+	text-indent: -1em;
+	margin-left: 1em;/*invert indent*/
+	padding-top: 0.25em;
+	line-height: 1.25em;
+}
+/*underline provided by nested ul (not li)*/
+.toctree-wrapper * ul {
+	padding-left: 2em;
+	border-top: solid #ececec 1px;
+}
+.toctree-wrapper > ul {margin-left: 1em}
+.rst-content .toctree-wrapper ul li ul {
+	margin-bottom: 0.75em;
+	padding-top: 0.5em;
+}
+.rst-content .toctree-wrapper ul li a:hover {color: #25afef}
+.rst-content .toctree-wrapper ul li a:visited:hover {color: #C961DA}
+.toctree-wrapper .toctree-l1 > a{font-size: 104%} .toctree-wrapper .toctree-l2 > a{font-size: 102%} .toctree-wrapper	.toctree-l3 > a{font-size: 100%}
+.toctree-wrapper .toctree-l1 > ul{border-color: #bfbfbf} .toctree-wrapper .toctree-l2 > ul{border-color: #e1e0e0} .toctree-wrapper  .toctree-l3 > ul{border-color: #ececec}
+/*remove list styling, css rule hierarchy*/
+.rst-content .toctree-wrapper ul li, .rst-content .toctree-wrapper ul li li , .rst-content .toctree-wrapper ul li li li {
+	list-style-type: none;
+	margin-left: 0px;
+}
+/*end custom toctree*/

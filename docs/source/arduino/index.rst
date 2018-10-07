@@ -14,3 +14,7 @@ It links to two main pages at the moment:
 
    introduction
    practise
+
+- Introduction
+- Practise
+- Hardware options

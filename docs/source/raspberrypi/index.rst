@@ -1,3 +1,4 @@
+============
 Raspberry Pi
 ============
 
@@ -12,9 +13,49 @@ Toc tree should go here
    :maxdepth: 2
    :caption: Contents:
 
-   setup
+   assembly
+   setup-sd
+   configuration
+   setup-headless
    networks
    remote-connection
    backing-up
    gpio
    peripherals
+
+- Assembling Pi workstation
+- Setting up the SD card
+
+ - Using an existing image
+ - Using NOOBS
+
+- Configuration
+
+ - raspi-config
+ - Adding users
+ - Packages/updates/installing Python
+
+- Headless Setup
+- Network options
+
+ - Connecting via GUI
+ - WPA Supplicant (+ encrypting password)
+ - Pi as a hotspot
+
+- Remote Connection
+
+ - SSH using remot.it
+
+   - Mac/windows
+   - Using 'Screen'
+
+ - VNC GUI access
+ - Transferring files
+
+- Backing up the Pi Image (link back to set up from image)
+- GPIO
+- Peripherals
+
+ - Point out available I/O e.g. cameras/screens
+ - Motor HAT
+ - Touch screen + drivers

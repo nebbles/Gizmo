@@ -1,5 +1,5 @@
-Backing up your Raspberry Pi SD image
-=====================================
+Backing up your SD card
+=======================
 
 .. todo::
   Backing up RP images

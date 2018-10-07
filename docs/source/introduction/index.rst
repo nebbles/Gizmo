@@ -8,5 +8,5 @@ This section of the documentation collates a number of useful topics to learn fo
    :caption: Contents
 
    computers
-   github
+   git
    python

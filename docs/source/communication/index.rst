@@ -12,10 +12,10 @@ Communication
 - Setting up Arduino for Pi
 - Protocols
 
- - Serial
- - I2C
- - SPI
- - UDP
- - MQTT
+  - Serial
+  - I2C
+  - SPI
+  - UDP
+  - MQTT
 
 - Software

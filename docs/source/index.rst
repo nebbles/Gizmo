@@ -11,15 +11,15 @@ Welcome to the Gizmo documentation for 2018.
 
 This new format is designed to be more generalised to support the electromechanical work which happens in many projects across the Design Engineering undergraduate degree.
 
+*Where possible, all contributions and acknowledgements will be put on pages as external links to the source. For more general acknowledgements, they will be put here rather than trying to find all the specific places in the documentation.*
 
+.. contents::
+  :local:
 
-Contributions & Acknowledgements
-================================
+Syllabus
+========
 
-.. todo::
-  Where possible, all contributions and acknowledgements will be put on pages as external links to the source. For more general acknowledgements, they will be put here rather than trying to find all the specific places in the documentation.
-
-
+.. todo:: Term 1 & 2 Lab plan will be added here.
 
 Contents
 ========
@@ -35,7 +35,7 @@ Contents
    supplementary/index.rst
 
 
-Todo List
-=========
+Missing Material
+================
 
 .. todoList::

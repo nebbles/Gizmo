@@ -3,4 +3,4 @@ Headless Setup
 ==============
 
 .. todo::
-  Setting up an SD card and Pi HEADLEESS
+  Headless set up of the Pi will be added later.

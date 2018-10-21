@@ -11,6 +11,7 @@ Toc tree should go here
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: Contents:
 
    assembly
@@ -18,6 +19,7 @@ Toc tree should go here
    configuration
    setup-headless
    networks
+   software
    remote-connection
    backing-up
    gpio

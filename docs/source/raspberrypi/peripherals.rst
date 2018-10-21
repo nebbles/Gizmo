@@ -3,11 +3,10 @@ Using Peripherals
 =================
 
 .. todo::
-  Using peripherals with RP
+  Using peripherals with Raspberry Pi will be added here later.
 
 Available I/O e.g. cameras/screens
 ==================================
-
 
 Motor HAT
 =========

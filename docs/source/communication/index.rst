@@ -2,7 +2,7 @@ Communication
 =============
 
 .. todo::
-  Communication index page
+  Guides and information on Communication will be added here later.
 
 .. toctree::
    :maxdepth: 2

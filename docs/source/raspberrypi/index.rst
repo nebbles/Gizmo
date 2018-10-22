@@ -2,17 +2,15 @@
 Raspberry Pi
 ============
 
-.. todo::
-  Clean up this index page
+Welcome to the Raspberry Pi guide. In this you will find information and tutorials on all aspects of setting up and using your Pi.
 
-The Raspberry pi work will be embedded under this document.
-
-Toc tree should go here
+.. image:: /_static/images/raspberry-pi-3b.jpg
+  :align: center
 
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :caption: Contents:
+   :caption: Chapters
 
    assembly
    setup-sd

@@ -36,41 +36,41 @@ At first we will setup the Pi using peripherals. Each team should get the follow
 
 1. Attach the Raspberry Pi to the wooden plate, first bolt the 4 M2.5 Standoffs to the plate and then attach the RPi to the plate with 4 more bolts (don't tighten them too much):
 
-.. image:: /_static/images/pi-hardware/assembly-pi.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-pi.jpg
+    :align: center
 
 2. Repeat the same operation with the Arduino using the M3 spacers, nuts and bolts. You will be able only to secure it with three bolts, remember not to tighten them too much:
 
-.. image:: /_static/images/pi-hardware/assembly-arduino.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-arduino.jpg
+    :align: center
 
 3. To attach the breadboard to the wooden plate, peel off the back of it to expose the adhesive strip and glue it to the wooden plate:
 
-.. image:: /_static/images/pi-hardware/assembly-sticky_back.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-sticky_back.jpg
+    :align: center
 
-.. image:: /_static/images/pi-hardware/assembly-final.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-final.jpg
+    :align: center
 
 4. Insert the micro-SD card in the back of the Pi, like so:
 
-.. image:: /_static/images/pi-hardware/assembly-rpi_sd.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-rpi_sd.jpg
+    :align: center
 
 5. Connect the touchscreen to the Pi, connecting it to the pins and with the HDMI plug, like so:
 
-.. image:: /_static/images/pi-hardware/assembly-screen.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-screen.jpg
+    :align: center
 
 6. Connect the keyboard with the USB.
 
-.. image:: /_static/images/pi-hardware/assembly-keyboard.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-keyboard.jpg
+    :align: center
 
 7. Using the power cable, power up the Pi and the screen:
 
-.. image:: /_static/images/pi-hardware/assembly-power.jpg
-  :align: center
+  .. image:: /_static/images/pi-hardware/assembly-power.jpg
+    :align: center
 
 8. The Pi will start the setup, if the screen doesn't illuminate check that it is on.
 

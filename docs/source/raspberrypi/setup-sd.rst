@@ -2,7 +2,7 @@
 Setting up your SD Card
 =======================
 
-When setting up a new Raspberry Pi, you will need to install an operating system (OS) onto your SD card. There are many operating system options, however the official and most commonly used is `Raspbian OS. <https://www.raspberrypi.org/downloads/raspbian/>`_ For Gizmo you will set up a modified version of Raspian. 
+When setting up a new Raspberry Pi, you will need to install an operating system (OS) onto your SD card. There are many operating system options, however the official and most commonly used is `Raspbian OS. <https://www.raspberrypi.org/downloads/raspbian/>`_ For Gizmo you will set up a modified version of Raspian.
 
 When setting up a new SD card yourself, we recommend using NOOBS (New Out Of Box Software). It is an easy installer to get a Pi up and running quickly (including Raspian OS). For information on how to set up with NOOBS, use `this guide. <https://www.raspberrypi.org/help/noobs-setup/2/>`_
 
@@ -10,12 +10,17 @@ When setting up a new SD card yourself, we recommend using NOOBS (New Out Of Box
 Downloading your Disk Image
 ===========================
 
-Usually, you would download a zipped image file directly from the `Raspberry Pi website. <https://www.raspberrypi.org/downloads/>`_  
+Usually, you would download a zipped image file directly from the `Raspberry Pi website. <https://www.raspberrypi.org/downloads/>`_
 
-However, for Gizmo we have added drivers for the touchscreen. `Here <https://www.waveshare.com/wiki/5inch_HDMI_LCD>`_ you can see what we did and find additional steps to modify the configuration of the touchscreen.
+However, for Gizmo we have already added the drivers required to use the touchscreen. We followed `this guide <https://www.waveshare.com/wiki/5inch_HDMI_LCD>`_ from the manufacturer. You can use it to find additional steps to modify the configuration of the touchscreen if you need to.
 
-**Download our Gizmo disk image with touch screen drivers** `here. <https://www.linktobeadded.com/>`_ 
+.. raw:: html
 
+  <div style="text-align:center">
+  <a class="btn btn-info btn-custom" href="https://google.com/" role="button" style="margin-bottom:20px;" style="margin-bottom:20px;">Download our Gizmo disk image with touch screen drivers</a></div>
+
+
+.. _`flash-sd`:
 
 Flashing your Disk Image
 ========================

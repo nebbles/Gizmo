@@ -152,14 +152,14 @@ Adding users
 
 A guide on adding new users to the Pi can be found `here <https://www.raspberrypi.org/documentation/linux/usage/users.md>`_. Generally this is not necessary, and you can continue to use the ``pi`` account. Just remember to change the user password for ``pi`` from ``raspberry`` to something new!
 
-You can create additional users on your Raspbian installation with the ```adduser``` command.
-Enter ```sudo adduser bob``` and you will be prompted for a password for the new user *bob*. Leave this blank if you do not want a password. However, we recommend that each user get a password to access remotely in the future, for example:
+You can create additional users on your Raspbian installation with the ``adduser`` command.
+Enter ``sudo adduser bob`` and you will be prompted for a password for the new user *bob*. Leave this blank if you do not want a password. However, we recommend that each user get a password to access remotely in the future, for example:
 
 .. code:: bash
 
   ssh bob@123.343.1.105
 
-You can delete a user on your system with the command ```userdel```. Apply the ```-r``` flag to remove their home folder too:
+You can delete a user on your system with the command ``userdel``. Apply the ``-r`` flag to remove their home folder too:
 
 .. code:: bash
 

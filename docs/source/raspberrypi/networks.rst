@@ -2,9 +2,6 @@
 Accessing Networks
 ==================
 
-.. todo::
-  Accessing networks on RP
-
 WiFi via GUI
 ============
 
@@ -70,9 +67,7 @@ So we add to the content of *wpa_supplicant.conf* so that is looks like this:
 Where ``COLLEGE_USERNAME`` has to be replaced with your college username and ``YOUR_PASSWORD`` with the password associated to it.
 
 .. important::
-   The configuration is case sensitive, so make sure you do not have typos.
-
-   Even the slightest error in this file can cause the networking to fail so make sure it exactly like this.
+   The configuration is case sensitive, so make sure you do not have typos. **Even the slightest error in this file can cause the networking to fail** so make sure it exactly like this.
 
 .. note::
   If you want to connect your Pi to the **eduroam** network, then set ``identity="COLLEGE_USERNAME@ic.ac.uk"``. Apply the same procedure for setting the password as seen below.

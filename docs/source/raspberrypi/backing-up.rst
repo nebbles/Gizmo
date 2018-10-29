@@ -12,7 +12,7 @@ It is useful and **always** advisable to backup a working copy of your Pi image.
 Backup using Windows
 ====================
 
-1. Download Win 32 Disk Imager if none installed on your computer [here]( https://sourceforge.net/projects/win32diskimager/)
+1. `Download Win 32 Disk Imager <https://sourceforge.net/projects/win32diskimager/>`_ if none installed on your computer.
 2. Insert the SDCard into your computer (e.g. via card reader or SD card slot if your computer has one).
 3. Open Win 32 Disk Imager. Select a location and give a file name for the backup image.
 4. Select the right drive.
@@ -32,12 +32,6 @@ Backup using macOS
 Restoring and image to the SD Card
 ==================================
 
-1. `Download SDFormatter <https://www.sdcard.org/downloads/formatter_4/>`_ if not installed.
-2. Use SDFormatter to format the SD card. Please be careful and make sure you select the correct drive letter.
-3. `Download Etcher <https://www.etcher.io>`_ if not installed.
-4. Use Etcher to flash the image to the SD card.
-
-   - Please be careful that the correct drive letter is selected.
-   - On Mac: if you backed up the image with the method above you might have to change the file extension from ".cdr" to ".iso"
+If you have an image saved somewhere, you can restore it to your SD card at any time to revert back to that version. To do this, check the section on :ref:`flash-sd`.
 
 If you wish to install a fresh Raspbian OS, you should look at the chapter on :doc:`setup-sd`.

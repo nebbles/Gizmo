@@ -31,14 +31,14 @@ Installing packages
 
 Now the OS is updated, we need to install Python. To install Linux packages onto our Pi we use the command: ``sudo apt-get install <name_of_package>`` in the terminal. Each installation could take a few minutes.
 
-1. Run the following two lines to install C lib, needed by Python
+1. Run each of the following two lines to install C lib, needed by Python
 
   .. code:: bash
-  
+
     sudo apt-get -y install libffi-dev
     sudo apt-get -y install libssl-dev
 
-2. Installing Python
+2. Installing Python, run each line one-by-one ensuring they complete
 
   .. code:: bash
 

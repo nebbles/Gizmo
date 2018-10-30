@@ -10,12 +10,6 @@ raspi-config
 
 A lot of the Pi's system settings are configured in ``raspi-config``, a `terminal/shell <https://en.wikipedia.org/wiki/Command-line_interface>`_ based tool. When we run this tool, we will run them as a **root user**, the root has the permission to modify files or default settings as an administrator. By default on Raspbian (the operating system of our Pi) the **root user** is ``pi`` and the **root password** associated to the root user is ``raspberry``. To operate as a root user in the terminal every command is preceded by the ``sudo`` (**s**\ uper **u**\ ser **do**) command.
 
-.. tip::
-  Following the new kernal update "Stretched" released in September. Some user has found that their settings get resetted after reboot. If so, please setup your Pi Configuration using within the X-Environment:
-
-  #. Click on Raspbian Icon
-  #. Preference
-  #. Raspberry Pi Settings
 
 Type the following command and press 'Enter' to open the configuration menu of the Pi:
 
@@ -119,7 +113,7 @@ We have set the new password. Do not reboot the Pi yet.
 Enable SSH
 ----------
 
-Lastly we will check that the SSH is enabled. We need to enable it to connect with the Pi remotely. From the main menu we access: *5 Interfacing Options*:
+ We will now check that the SSH is enabled. We need to enable it to connect with the Pi remotely. From the main menu we access: *5 Interfacing Options*:
 
 .. image:: /_static/images/pi-config/interfacing-options.png
   :align: center
@@ -141,11 +135,40 @@ We confirm again:
 
 Exit the menu by pressing the right arrow twice to select *Finish* and press the Enter key. You will re-enter the terminal.
 
+Expand root partition
+---------------------
+
+Lastly we will expand the root partition to fill the SD card. From the main menu we access: *7 Advanced Options*:
+
+We select *1 Expand Filesystem*. 
+
+.. image:: /_static/images/pi-config/expand-filesystem.png
+  :align: center
+
+We confirm the changes. You will need to reboot the Pi for changes to be implemented (see next step).
+
+.. image:: /_static/images/pi-config/root-confirm.png
+  :align: center
+
+.. note::
+  SD Cards can be split into partitions to separate storage of data. The partition has been shrunk to make the download size smaller, but we now want to expand the root parition to fill the whole SD card (allowing more space for file storage). If you do not do this you will find you are unable to create new files. 
+
+Reboot
+------
+
 Now reboot the Pi to ensure all your changes are made:
 
 .. code:: bash
 
   $ sudo reboot now
+
+.. tip::
+  Following the new kernal update "Raspian Stretch" released in September 2017, some users have found that their settings are reset after reboot. If so, please perform Pi Configuration within the X-Environment:
+
+  #. Click on Raspbian Icon
+  #. Preference
+  #. Raspberry Pi Settings
+
 
 Adding users
 ============

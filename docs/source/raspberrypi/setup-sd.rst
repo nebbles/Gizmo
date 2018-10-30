@@ -31,7 +31,7 @@ Flashing your Disk Image
 4. Use Etcher to flash the image to the SD card.
 
    - Please be careful that the correct drive letter is selected.
-   - On Mac: if you backed up the image with in Section 8 you may have to change the file extension from ".cdr" to ".iso"
+   - On Mac: if you backed up the image yourself (method in Section 8) you may have to change the file extension from ".cdr" to ".iso"
 5. You're done! If all has gone well the Raspberry Pi should now boot when started with the new SD Card.
 
 

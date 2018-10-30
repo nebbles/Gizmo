@@ -31,12 +31,10 @@ Flashing your Disk Image
 4. Use Etcher to flash the image to the SD card.
 
    - Please be careful that the correct drive letter is selected.
-   - On Mac: if you backed up the image yourself (method in Section 8) you may have to change the file extension from ".cdr" to ".iso"
+   - On Mac: if you backed up the image yourself (see Chapter 8: :doc:`backing-up`) you may have to change the file extension from ".cdr" to ".iso"
+
 5. You're done! If all has gone well the Raspberry Pi should now boot when started with the new SD Card.
 
 
-.. Tip::
-  Your Gizmo Raspian OS has been optimised for the 5 inch touchscreen - so will always show in low res (800x480). If you move to a full size screen you should reverse the steps taken `here <https://www.waveshare.com/wiki/5inch_HDMI_LCD>`_ to avoid potato resolution.
-
-
-
+.. tip::
+  Your Gizmo Raspian OS has been optimised for the 5 inch touchscreen - so will always display the screen in low resolution (800x480). If you move to a full size screen you should reverse the steps taken `here <https://www.waveshare.com/wiki/5inch_HDMI_LCD>`_ to avoid potato resolution.

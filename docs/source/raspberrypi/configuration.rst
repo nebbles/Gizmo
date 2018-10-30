@@ -140,7 +140,7 @@ Expand root partition
 
 Lastly we will expand the root partition to fill the SD card. From the main menu we access: *7 Advanced Options*:
 
-We select *1 Expand Filesystem*. 
+We select *1 Expand Filesystem*.
 
 .. image:: /_static/images/pi-config/expand-filesystem.png
   :align: center
@@ -151,7 +151,7 @@ We confirm the changes. You will need to reboot the Pi for changes to be impleme
   :align: center
 
 .. note::
-  SD Cards can be split into partitions to separate storage of data. The partition has been shrunk to make the download size smaller, but we now want to expand the root parition to fill the whole SD card (allowing more space for file storage). If you do not do this you will find you are unable to create new files. 
+  SD Cards can be split into partitions to separate storage of data. The partition has been shrunk to make the download size smaller, but we now want to expand the root parition to fill the whole SD card (allowing more space for file storage). If you do not do this you will find you are unable to create new files.
 
 Reboot
 ------

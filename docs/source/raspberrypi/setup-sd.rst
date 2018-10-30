@@ -17,7 +17,7 @@ However, for Gizmo we have already added the drivers required to use the touchsc
 .. raw:: html
 
   <div style="text-align:center">
-  <a class="btn btn-info btn-custom" href="https://google.com/" role="button" style="margin-bottom:20px;" style="margin-bottom:20px;">Download our Gizmo disk image with touch screen drivers</a></div>
+  <a class="btn btn-info btn-custom" href="https://drive.google.com/open?id=1LuS7vVXn_YxSb5cQ59zZ8gDHcZsljh8T" role="button" style="margin-bottom:20px;" style="margin-bottom:20px;">Download our Gizmo disk image with touchscreen drivers</a></div>
 
 
 .. _`flash-sd`:
@@ -31,5 +31,12 @@ Flashing your Disk Image
 4. Use Etcher to flash the image to the SD card.
 
    - Please be careful that the correct drive letter is selected.
-   - On Mac: if you backed up the image with the method above you might have to change the file extension from ".cdr" to ".iso"
-5. You're done! If all has gone well the Raspberry Pi should boot up correctly with your new SD card.
+   - On Mac: if you backed up the image with in Section 8 you may have to change the file extension from ".cdr" to ".iso"
+5. You're done! If all has gone well the Raspberry Pi should now boot when started with the new SD Card.
+
+
+.. Tip::
+  Your Gizmo Raspian OS has been optimised for the 5 inch touchscreen - so will always show in low res (800x480). If you move to a full size screen you should reverse the steps taken `here <https://www.waveshare.com/wiki/5inch_HDMI_LCD>`_ to avoid potato resolution.
+
+
+

@@ -1,20 +1,19 @@
+=======
 Arduino
 =======
 
-.. todo::
-  clean up index page for arduino
+Welcome to the Arduino guide.
 
-Here is the cover page for the Arduino.
-
-It links to two main pages at the moment:
+.. image:: /_static/images/arduino-uno.png
+  :align: center
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :numbered:
+   :caption: Chapters
 
    introduction
-   practise
-
-- Introduction
-- Practise
-- Hardware options
+   practice-basics
+   practice-sensors
+   practice-actuators
+   practice-combined

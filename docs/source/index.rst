@@ -19,7 +19,17 @@ This new format is designed to be more generalised to support the electromechani
 Syllabus
 ========
 
-.. todo:: Term 1 & 2 Lab plan will be added here.
+==================  ============================  ==========================================
+Class               Date                          Contents
+==================  ============================  ==========================================
+DE2 Gizmo Class 4   Wednesday 17th October 2018   - :doc:`arduino/introduction`
+                                                  - :doc:`arduino/practice-basics`
+                                                  - :doc:`arduino/practice-sensors`
+                                                  - :doc:`arduino/practice-actuators`
+DE2 Gizmo Class 6   Wednesday 24th October 2018   - :doc:`arduino/practice-combined`
+DE2 Gizmo Class 8   Wednesday 24th October 2018   - :doc:`raspberrypi/index` Chapters 1 → 8
+DE2 Gizmo Class 10  Wednesday 14th November 2018  - :doc:`raspberrypi/index` Chapter 8
+==================  ============================  ==========================================
 
 Contents
 ========
@@ -33,7 +43,6 @@ Contents
    communication/index.rst
    sense-actuate/index.rst
    supplementary/index.rst
-
 
 Missing Material
 ================

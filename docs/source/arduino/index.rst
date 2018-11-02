@@ -2,8 +2,6 @@
 Arduino
 =======
 
-Welcome to the Arduino guide.
-
 .. image:: /_static/images/arduino-uno.png
   :align: center
 

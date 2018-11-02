@@ -27,7 +27,14 @@ DE2 Gizmo Class 4   Wednesday 17th October 2018   - :doc:`arduino/introduction`
                                                   - :doc:`arduino/practice-sensors`
                                                   - :doc:`arduino/practice-actuators`
 DE2 Gizmo Class 6   Wednesday 24th October 2018   - :doc:`arduino/practice-combined`
-DE2 Gizmo Class 8   Wednesday 24th October 2018   - :doc:`raspberrypi/index` Chapters 1 → 8
+DE2 Gizmo Class 8   Wednesday 24th October 2018   - :doc:`raspberrypi/index`
+
+                                                    - Chapter 1
+                                                    - Chapter 3
+                                                    - Chapter 5.2
+                                                    - Chapter 6
+                                                    - Chapter 7.1
+                                                    - Chapter 8
 DE2 Gizmo Class 10  Wednesday 14th November 2018  - :doc:`raspberrypi/index` Chapter 8
 ==================  ============================  ==========================================
 

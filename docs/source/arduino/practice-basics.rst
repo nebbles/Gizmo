@@ -94,9 +94,6 @@ Code
 
 For the code you can upload the built-in example "Fade" from **File → Example → 01. Basics → Fade**.
 
-.. image:: /_static/images/arduino-practise/arduino-fade-choice.png
-  :align: center
-
 Understanding the "Fade" code
 *****************************
 

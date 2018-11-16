@@ -36,18 +36,9 @@ Then we edit the ``wpa_supplicant.conf``. The default text editor installed in t
 
   $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-
-This file should just have this at the beginning:
+We edit the file so that the all the content appears like this:
 
 .. code:: bash
-
-  ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-  update_config=1
-
-
-So we add to the content of *wpa_supplicant.conf* so that is looks like this:
-
- .. code:: bash
 
   ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
   update_config=1

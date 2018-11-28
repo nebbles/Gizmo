@@ -374,17 +374,26 @@ Repeat the same steps of "Blink" to upload the code below, this time call the fi
 
   from gpiozero import Button
 
-  button = Button(2)
-  buttonWasPressed = False # 1st flag
-  buttonWasReleased = False # 2nd flag
+  button = Button(2)  # we first create an instance of the Button class
+  buttonWasPressed = False # 1st flag will help us track if the button was pressed in the last loop
+  buttonWasReleased = False # 2nd flag will help us track if the button was released in the last loop
 
   while True:
+      
       if button.is_pressed:
-          buttonWasReleased = False
+          buttonWasReleased = False  # reset back to false since the button is now being pressed
+          
+          # we only want the print() code to be run once, 
+          # so if it was pressed the last time the code looped, don't print it this time!
           if not buttonWasPressed:
               print("Button is pressed")
-              buttonWasPressed = True
+
+              # since we have now run this code, we don't want
+              # it to run the next time the code loops, so
+              buttonWasPressed = True 
+      
       else:
+          # this code is run when the button is not being pressed
           buttonWasPressed = False
           if not buttonWasReleased:
               print("Button is released")

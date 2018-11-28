@@ -2,6 +2,8 @@
 Headless Setup
 ==============
 
+.. important:: You **do not** need to do this setup is you are using a screen and keyboard. If you have a screen and keyboard available, move onto the next chapter.
+
 It can be useful to set up a new Pi even when you *don't have a monitor and keyboard* spare to do a normal set up. Fortunately, there is a way to set up a new Pi without using these peripherals. This is called 'setting the Pi up headless'. The following guide is derived from the `official Pi documentation <https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>`_.
 
 .. note::

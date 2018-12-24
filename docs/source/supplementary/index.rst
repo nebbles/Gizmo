@@ -4,12 +4,16 @@ Supplementary Material
 
 **Please feel free to make additional suggestions!**
 
+This section documents common tools, commands, and functionality of Unix-based operating systems such as Raspbian, Linux, and macOS.
+
 .. todo::
   More supplementary material will be added here later.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   crontab
 
 Material to be added
 ====================

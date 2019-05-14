@@ -52,7 +52,14 @@ To understand Git, there are a number of good tutorials out there to get you sta
     <a class="btn btn-info btn-custom" href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" role="button" style="margin-bottom:20px;white-space:normal;">Complete Video Playlist</a>
     </div>
 
-For a quick overview, we recommend you check out `just a simple guide for getting started with git. no deep shit ;) <http://rogerdudler.github.io/git-guide/>`_
+
+Overview
+--------
+
+For a quick overview, we recommend you check out `just a simple guide for getting started with git<http://rogerdudler.github.io/git-guide/>`_.
+
+Cheatsheet
+----------
 
 If you need a quick cheatsheet for Git commands, `Tower has a pretty good one put together <https://www.git-tower.com/blog/git-cheat-sheet/>`_
 
@@ -60,9 +67,6 @@ The following graphic, also made by Tower, is a guide to how the Git workflow wo
 
 .. image:: https://www.git-tower.com/learn/content/02-cheat-sheets/03-vcs-workflow/workflow-of-version-control-large.jpg
   :width: 100%
-
-
-
 
 Using a graphical interface for Git
 ===================================
@@ -78,4 +82,3 @@ GitHub
 ======
 
 GitHub and Bitbucket are the two biggest public services for storing VCS repositories. We recommend you use the official `GitHub guides <https://guides.github.com>`_. These will help you transistion your understanding of using Git locally, into using GitHub to host your files.
-

@@ -33,7 +33,7 @@ Please see [the site](gizmo.designengineering.london) to view the guides.
 
 For queries, please contact Ben.
 
-## Developer Docs
+## Developer Docssou
 
 Documentation for developers will hopefully be added in the future.
 
@@ -43,7 +43,7 @@ In 2016, Dr. Ariadna Blanca Romero produced the initial online teaching material
 
 In 2017, the material was overhauled by Dr. Jing Sheng Pang, Elena Falomo, and Ben Greenberg in [a new forked repository, which is now legacy content](https://github.com/ImperialDyson/Gizmo-Legacy). 
 
-In 2018, Ben Greenberg rewrote and updated much of the material, and migrated all teaching into a complete website format built with Sphinx. This repository stores this latest iteration.
+In 2018, Ben Greenberg rewrote and updated much of the material, and migrated all teaching into a complete website format built with Sphinx. [This repository](https://github.com/nebbles/Gizmo) stores this latest iteration.
 
 Acknowledgement is also made to the following for their useful online resources:
 
